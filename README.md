@@ -45,9 +45,18 @@ Os testes foram realizados utilizando o Postman.
 | /mensagens/{id} | GET | Buscar ID inexistente | 404 Not Found |
 | /mensagens/{id} | DELETE | Remover mensagem | 204 No Content |
 
-📸 **Evidências:**
-- Inserir prints das requisições realizadas no Postman
-- Mostrar URL, método, body e status HTTP
+**Evidências:**
+
+Criar mensagem - 201 Created
+![Criar mensagem - 201 Created](images/201.png)
+Listar mensagens - 200 OK
+![Listar mensagens - 200 OK](images/200ok.png)
+Buscar por ID existente - 200 OK
+![Buscar por ID existente - 200 OK](images/200.png)
+Buscar ID inexistente - 404 Not Found
+![Buscar ID inexistente - 404 Not Found](images/404.png)
+Remover mensagem - 204 No Content
+![Remover mensagem - 204 No Content](images/204.png)
 
 ---
 
